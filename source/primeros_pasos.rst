@@ -87,15 +87,14 @@ Saludo
 --------
 *Escribir un programa que pregunte al usuario su nombre y despues le salude*
 
-Programa propuesto:
+Una posibilidad es esta, pero exige que la entrada se teclee:
 
 .. literalinclude:: programas/problemas/tema1/problema_1_1.groovy
    :language: groovy
 
-Salida:
+Una variante quizá más aceptable sea esta, que permite que enviemos texto desde otro fichero que pueda actuar como "entrada tecleada" haciendo cosas como ``cat fich.txt | groovy problema.groovy``
 
-.. command-output:: echo "Pepe" | groovy programas/problemas/tema1/problema_1_1.groovy
-   :shell:
+
 
 
 Write a program that asks the user for her name and greets her with her name.
