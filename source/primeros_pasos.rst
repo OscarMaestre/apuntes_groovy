@@ -24,7 +24,7 @@ Y el resultado que veremos será el siguiente:
 
 .. program-output:: groovy programas/hola_mundo.groovy
 
-
+De la misma forma que podemos imprimir algo en pantalla con ``println`` podemos pedir al usuario que introduzca algo usando un objeto.
 
 Bucles
 ---------------
@@ -43,10 +43,10 @@ Se puede definir una variable usando ``def``. **No es necesario indicar el tipo*
 .. literalinclude:: programas/variables1.groovy
    :language: groovy
    
-Y obsérvese el resultado que veremos que será algo como siguiente:
+Y obsérvese el resultado que veremos que será algo como lo siguiente:
 
 .. program-output:: groovy programas/variables1.groovy
-
+   :returncode: 1
 
 
 
@@ -79,3 +79,32 @@ Si deseamos bucles en los cuales no avancemos de 1 en 1 se puede usar el método
 Cuyo resultado es:
 
 .. program-output:: groovy programas/bucles_step.groovy
+
+Problemas propuestos
+======================
+
+Saludo
+--------
+*Escribir un programa que pregunte al usuario su nombre y despues le salude*
+
+Programa propuesto:
+
+.. literalinclude:: programas/problemas/tema1/problema_1_1.groovy
+   :language: groovy
+
+Salida:
+
+.. command-output:: echo "Pepe" | groovy programas/problemas/tema1/problema_1_1.groovy
+   :shell:
+
+
+Write a program that asks the user for her name and greets her with her name.
+Modify the previous program such that only the users Alice and Bob are greeted with their names.
+Write a program that asks the user for a number n and prints the sum of the numbers 1 to n
+Modify the previous program such that only multiples of three or five are considered in the sum, e.g. 3, 5, 6, 9, 10, 12, 15 for n=17
+Write a program that asks the user for a number n and gives him the possibility to choose between computing the sum and computing the product of 1,…,n.
+Write a program that prints a multiplication table for numbers up to 12.
+Write a program that prints all prime numbers. (Note: if your programming language does not support arbitrary size numbers, printing all primes up to the largest number you can easily represent is fine too.)
+Write a guessing game where the user has to guess a secret number. After every guess the program tells the user whether their number was too large or too small. At the end the number of tries needed should be printed. I counts only as one try if they input the same number multiple times consecutively.
+Write a program that prints the next 20 leap years.
+Write a program that computes 
