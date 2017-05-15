@@ -94,14 +94,29 @@ Una posibilidad es esta, pero exige que la entrada se teclee:
 
 Una variante quizá más aceptable sea esta, que permite que enviemos texto desde otro fichero que pueda actuar como "entrada tecleada" haciendo cosas como ``cat fich.txt | groovy problema.groovy``
 
+Saludo selectivo
+-----------------------
+Modificar el programa anterior para que solo se salude con sus nombres a los usuarios Alice o Bob. El resto de personas simplemente verán el mensaje "Hola".
+
+.. literalinclude:: programas/problemas/tema1/problema_1_1_2_saludo_selectivo.groovy
+   :language: groovy
+
+Suma de números
+--------------------
+Escribir un programa que pida al usuario un número *n* e imprima la suma de números desde 1 hasta *n*.
+
+.. literalinclude:: programas/problemas/tema1/problema_1_2_suma_n.groovy
+   :language: groovy
 
 
+Operaciones selectivas
+---------------------------
+Crear un programa que pida al usuario un numero *n* y le ofrezca la posibilidad de hacer la suma o el producto de los valores comprendidos entre 1 y *n*.
 
-Write a program that asks the user for her name and greets her with her name.
-Modify the previous program such that only the users Alice and Bob are greeted with their names.
-Write a program that asks the user for a number n and prints the sum of the numbers 1 to n
-Modify the previous program such that only multiples of three or five are considered in the sum, e.g. 3, 5, 6, 9, 10, 12, 15 for n=17
-Write a program that asks the user for a number n and gives him the possibility to choose between computing the sum and computing the product of 1,…,n.
+
+.. literalinclude:: programas/problemas/tema1/problema_1_3_operaciones_selectivas.groovy
+   :language: groovy
+
 Write a program that prints a multiplication table for numbers up to 12.
 Write a program that prints all prime numbers. (Note: if your programming language does not support arbitrary size numbers, printing all primes up to the largest number you can easily represent is fine too.)
 Write a guessing game where the user has to guess a secret number. After every guess the program tells the user whether their number was too large or too small. At the end the number of tries needed should be printed. I counts only as one try if they input the same number multiple times consecutively.
